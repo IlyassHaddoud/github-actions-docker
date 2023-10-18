@@ -10,6 +10,10 @@ app.get("/new", (req, res) => {
   res.json({ Msg: "New Route" });
 });
 
+app.get("/add", (req, res) => {
+  res.json({ Msg: "Add Route" });
+});
+
 app.listen(PORT, () => {
   console.log("Server running on " + PORT);
 });
